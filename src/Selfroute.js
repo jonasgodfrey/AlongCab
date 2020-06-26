@@ -13,7 +13,7 @@ class Selfroute extends Component {
     }
     
     render() {
-       if(this.state.isloggedin == true){
+       if(this.state.isloggedin === true){
         return (
             <BrowserRouter>
             <Switch>
